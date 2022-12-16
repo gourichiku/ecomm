@@ -1,0 +1,49 @@
+{
+  "posts": [
+    {}
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 2,
+      "categoryName": "Men"
+    },
+    {
+      "id": 3,
+      "categoryName": "Women"
+    },
+    {
+      "id": 4,
+      "categoryName": "Home & Furniture"
+    },
+    {
+      "id": 5,
+      "categoryName": "Baby & Kids"
+    }
+  ],
+  "products": [
+    {
+      "categoryID": "2",
+      "productName": "iPhone",
+      "price": 100,
+      "is_availble": "10",
+      "review": 4.5,
+      "waranty": 2,
+      "vendor_name": "Oppo",
+      "id": 1
+    },
+    {
+      "categoryID": 4,
+      "productName": "vivo",
+      "price": 500000,
+      "is_availble": 1000,
+      "review": 5,
+      "waranty": 2,
+      "vendor_name": "vivo",
+      "id": 2
+    }
+  ]
+}

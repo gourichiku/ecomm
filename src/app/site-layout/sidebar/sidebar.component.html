@@ -1,0 +1,16 @@
+
+
+
+
+<div class="list-group mt-4">
+<h6><a href="products" class="list-group-item" >View all product</a></h6>
+</div>
+<div class="list-group">
+   <h6><a href="add-product" class="list-group-item" >Add Product</a></h6>
+</div>
+<!-- <div class="list-group" >
+   <h6><a href="update-product" class="list-group-item" >Update Product</a></h6>
+</div> -->
+<div class="list-group" *ngFor="let catg of categorylist">
+   <h6><a href="products/category/{{catg.id}}" class="list-group-item" >{{catg.categoryName}}</a></h6>
+</div>

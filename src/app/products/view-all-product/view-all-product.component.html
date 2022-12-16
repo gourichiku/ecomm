@@ -1,0 +1,18 @@
+
+<!--cards-->
+
+<div class="card-group mt-5 my-5 mx-">
+    <div class="card pe-2" *ngFor="let product of productlist">
+      <img src="./../../../assets/image/oppo.jpg" class="card-img-top" alt="..." style="height:200px">
+      <div class="card-body">
+        <div class="card-title">
+            <a href="products/view-product/{{product.id}}">{{product.productName}}</a>
+        </div>
+        <p class="card-text"><b>Price: {{product.price}}</b></p>
+        <p class="card-text"><b>Availble: {{product.is_availble}}</b></p>
+        <p class="card-text"><b>Review: {{product.review}}</b></p>
+        <p class="card-text"><b>Waranty: {{product.waranty}}</b></p>
+        <p class="card-text"><b>Brand: {{product.vendor_name}}</b></p>
+        </div>
+    </div>
+</div>

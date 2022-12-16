@@ -1,0 +1,42 @@
+<form class="row g-3 needs-validation mt-2 mb-5" [formGroup]="form">
+  <div class="col-md-4">
+    <label for="validationCustom01" class="form-label">categoryID</label>
+    <input type="text" class="form-control" id="validationCustom01" value="" formControlName="categoryID" >
+    
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Product Name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" formControlName="productName">
+    
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Review</label>
+    <input type="number" class="form-control" id="validationCustom02" value=""formControlName="review" >
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Availbility</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" formControlName="is_availble" >
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Vendor Name</label>
+    <input type="text" class="form-control" id="validationCustom02" value="" formControlName="vendor_name" >
+    
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Warenty</label>
+    <input type="number" class="form-control" id="validationCustom02" value="" formControlName="waranty" >
+    
+  </div>
+  <div class="col-md-4">
+    <label for="validationCustom02" class="form-label">Price</label>
+    <input type="number" class="form-control" id="validationCustom02" value="" formControlName="price">
+    
+  </div>
+  
+  
+ 
+  
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit" (click)="onSubmit()">Submit form</button>
+  </div>
+</form>
